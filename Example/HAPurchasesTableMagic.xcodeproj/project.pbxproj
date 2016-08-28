@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41E4698C1D72E74C003AE711 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E4698B1D72E74C003AE711 /* Default-568h@2x.png */; };
+		41E4698E1D72E75E003AE711 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E4698D1D72E75E003AE711 /* StoreKit.framework */; };
+		41E4699C1D72E7F8003AE711 /* AveBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E469911D72E7F8003AE711 /* AveBorderedButton.m */; };
+		41E4699D1D72E7F8003AE711 /* AveBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E469931D72E7F8003AE711 /* AveBorderedView.m */; };
+		41E4699E1D72E7F8003AE711 /* AvePurchaseActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E469951D72E7F8003AE711 /* AvePurchaseActivityIndicatorView.m */; };
+		41E4699F1D72E7F8003AE711 /* AvePurchaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E469971D72E7F8003AE711 /* AvePurchaseButton.m */; };
+		41E469A01D72E7F8003AE711 /* HAPurchasesMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E469991D72E7F8003AE711 /* HAPurchasesMagic.m */; };
+		41E469A11D72E7F8003AE711 /* MKStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E4699B1D72E7F8003AE711 /* MKStoreKit.m */; };
+		41E469AE1D72E81A003AE711 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E469A41D72E81A003AE711 /* AppDelegate.m */; };
+		41E469AF1D72E81A003AE711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E469A51D72E81A003AE711 /* Assets.xcassets */; };
+		41E469B21D72E81A003AE711 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41E469A81D72E81A003AE711 /* Info.plist */; };
+		41E469B41D72E81A003AE711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E469AA1D72E81A003AE711 /* main.m */; };
+		41E469B51D72E81A003AE711 /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41E469AB1D72E81A003AE711 /* MKStoreKitConfigs.plist */; };
+		41E469B61D72E81A003AE711 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E469AD1D72E81A003AE711 /* ViewController.m */; };
+		41E469B91D72E865003AE711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E469B71D72E865003AE711 /* LaunchScreen.storyboard */; };
+		41E469BA1D72E865003AE711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E469B81D72E865003AE711 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20DC9F80F0FB1AF3A9714CBA /* Pods-HAPurchasesTableMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAPurchasesTableMagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-HAPurchasesTableMagic/Pods-HAPurchasesTableMagic.release.xcconfig"; sourceTree = "<group>"; };
+		3C6785299AD6D737681F2071 /* Pods-HAPurchasesTableMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAPurchasesTableMagic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HAPurchasesTableMagic/Pods-HAPurchasesTableMagic.debug.xcconfig"; sourceTree = "<group>"; };
+		41CB7B291D71130B007E000C /* HAPurchasesTableMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAPurchasesTableMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E4698B1D72E74C003AE711 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		41E4698D1D72E75E003AE711 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		41E469901D72E7F8003AE711 /* AveBorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveBorderedButton.h; sourceTree = "<group>"; };
+		41E469911D72E7F8003AE711 /* AveBorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AveBorderedButton.m; sourceTree = "<group>"; };
+		41E469921D72E7F8003AE711 /* AveBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveBorderedView.h; sourceTree = "<group>"; };
+		41E469931D72E7F8003AE711 /* AveBorderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AveBorderedView.m; sourceTree = "<group>"; };
+		41E469941D72E7F8003AE711 /* AvePurchaseActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvePurchaseActivityIndicatorView.h; sourceTree = "<group>"; };
+		41E469951D72E7F8003AE711 /* AvePurchaseActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvePurchaseActivityIndicatorView.m; sourceTree = "<group>"; };
+		41E469961D72E7F8003AE711 /* AvePurchaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvePurchaseButton.h; sourceTree = "<group>"; };
+		41E469971D72E7F8003AE711 /* AvePurchaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvePurchaseButton.m; sourceTree = "<group>"; };
+		41E469981D72E7F8003AE711 /* HAPurchasesMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAPurchasesMagic.h; sourceTree = "<group>"; };
+		41E469991D72E7F8003AE711 /* HAPurchasesMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAPurchasesMagic.m; sourceTree = "<group>"; };
+		41E4699A1D72E7F8003AE711 /* MKStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreKit.h; sourceTree = "<group>"; };
+		41E4699B1D72E7F8003AE711 /* MKStoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreKit.m; sourceTree = "<group>"; };
+		41E469A31D72E81A003AE711 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41E469A41D72E81A003AE711 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41E469A51D72E81A003AE711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41E469A81D72E81A003AE711 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E469AA1D72E81A003AE711 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41E469AB1D72E81A003AE711 /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MKStoreKitConfigs.plist; sourceTree = "<group>"; };
+		41E469AC1D72E81A003AE711 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41E469AD1D72E81A003AE711 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41E469B71D72E865003AE711 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41E469B81D72E865003AE711 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41CB7B261D71130B007E000C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E4698E1D72E75E003AE711 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		384079DB198287CE4302D64E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E4698D1D72E75E003AE711 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41CB7B201D71130B007E000C = {
+			isa = PBXGroup;
+			children = (
+				41E4698B1D72E74C003AE711 /* Default-568h@2x.png */,
+				41E469A21D72E808003AE711 /* Example */,
+				41E4698F1D72E7E4003AE711 /* HAPurchasesTableMagic */,
+				41CB7B2A1D71130B007E000C /* Products */,
+				B7F357AB0C693CD0DAA35483 /* Pods */,
+				384079DB198287CE4302D64E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41CB7B2A1D71130B007E000C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41CB7B291D71130B007E000C /* HAPurchasesTableMagic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E4698F1D72E7E4003AE711 /* HAPurchasesTableMagic */ = {
+			isa = PBXGroup;
+			children = (
+				41E469901D72E7F8003AE711 /* AveBorderedButton.h */,
+				41E469911D72E7F8003AE711 /* AveBorderedButton.m */,
+				41E469921D72E7F8003AE711 /* AveBorderedView.h */,
+				41E469931D72E7F8003AE711 /* AveBorderedView.m */,
+				41E469941D72E7F8003AE711 /* AvePurchaseActivityIndicatorView.h */,
+				41E469951D72E7F8003AE711 /* AvePurchaseActivityIndicatorView.m */,
+				41E469961D72E7F8003AE711 /* AvePurchaseButton.h */,
+				41E469971D72E7F8003AE711 /* AvePurchaseButton.m */,
+				41E469981D72E7F8003AE711 /* HAPurchasesMagic.h */,
+				41E469991D72E7F8003AE711 /* HAPurchasesMagic.m */,
+				41E4699A1D72E7F8003AE711 /* MKStoreKit.h */,
+				41E4699B1D72E7F8003AE711 /* MKStoreKit.m */,
+			);
+			name = HAPurchasesTableMagic;
+			path = ../HAPurchasesTableMagic;
+			sourceTree = "<group>";
+		};
+		41E469A21D72E808003AE711 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				41E469A31D72E81A003AE711 /* AppDelegate.h */,
+				41E469A41D72E81A003AE711 /* AppDelegate.m */,
+				41E469AC1D72E81A003AE711 /* ViewController.h */,
+				41E469AD1D72E81A003AE711 /* ViewController.m */,
+				41E469A51D72E81A003AE711 /* Assets.xcassets */,
+				41E469B71D72E865003AE711 /* LaunchScreen.storyboard */,
+				41E469B81D72E865003AE711 /* Main.storyboard */,
+				41E469A81D72E81A003AE711 /* Info.plist */,
+				41E469AA1D72E81A003AE711 /* main.m */,
+				41E469AB1D72E81A003AE711 /* MKStoreKitConfigs.plist */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		B7F357AB0C693CD0DAA35483 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C6785299AD6D737681F2071 /* Pods-HAPurchasesTableMagic.debug.xcconfig */,
+				20DC9F80F0FB1AF3A9714CBA /* Pods-HAPurchasesTableMagic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41CB7B281D71130B007E000C /* HAPurchasesTableMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CB7B401D71130B007E000C /* Build configuration list for PBXNativeTarget "HAPurchasesTableMagic" */;
+			buildPhases = (
+				41CB7B251D71130B007E000C /* Sources */,
+				41CB7B261D71130B007E000C /* Frameworks */,
+				41CB7B271D71130B007E000C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HAPurchasesTableMagic;
+			productName = HAPurchasesTableMagic;
+			productReference = 41CB7B291D71130B007E000C /* HAPurchasesTableMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41CB7B211D71130B007E000C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hipolito Arias";
+				TargetAttributes = {
+					41CB7B281D71130B007E000C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4U72882THN;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 41CB7B241D71130B007E000C /* Build configuration list for PBXProject "HAPurchasesTableMagic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41CB7B201D71130B007E000C;
+			productRefGroup = 41CB7B2A1D71130B007E000C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41CB7B281D71130B007E000C /* HAPurchasesTableMagic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41CB7B271D71130B007E000C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E469BA1D72E865003AE711 /* Main.storyboard in Resources */,
+				41E469AF1D72E81A003AE711 /* Assets.xcassets in Resources */,
+				41E469B21D72E81A003AE711 /* Info.plist in Resources */,
+				41E469B91D72E865003AE711 /* LaunchScreen.storyboard in Resources */,
+				41E4698C1D72E74C003AE711 /* Default-568h@2x.png in Resources */,
+				41E469B51D72E81A003AE711 /* MKStoreKitConfigs.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41CB7B251D71130B007E000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E469B61D72E81A003AE711 /* ViewController.m in Sources */,
+				41E4699D1D72E7F8003AE711 /* AveBorderedView.m in Sources */,
+				41E4699E1D72E7F8003AE711 /* AvePurchaseActivityIndicatorView.m in Sources */,
+				41E4699F1D72E7F8003AE711 /* AvePurchaseButton.m in Sources */,
+				41E4699C1D72E7F8003AE711 /* AveBorderedButton.m in Sources */,
+				41E469A11D72E7F8003AE711 /* MKStoreKit.m in Sources */,
+				41E469A01D72E7F8003AE711 /* HAPurchasesMagic.m in Sources */,
+				41E469B41D72E81A003AE711 /* main.m in Sources */,
+				41E469AE1D72E81A003AE711 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41CB7B3F1D71130B007E000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41CB7B421D71130B007E000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.masterapps.ControlHoras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41CB7B241D71130B007E000C /* Build configuration list for PBXProject "HAPurchasesTableMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CB7B3F1D71130B007E000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41CB7B401D71130B007E000C /* Build configuration list for PBXNativeTarget "HAPurchasesTableMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CB7B421D71130B007E000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41CB7B211D71130B007E000C /* Project object */;
+}
